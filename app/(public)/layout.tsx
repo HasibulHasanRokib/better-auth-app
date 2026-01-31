@@ -27,17 +27,17 @@ export default function Layout({
           <div className="hidden items-center space-x-4 md:flex">
             <Link
               className="rounded-md border px-4 py-1.5 text-sm font-medium transition-colors hover:border-black hover:bg-black hover:text-white"
-              href="/login"
+              href="/auth/sign-in"
             >
-              Login
+              Sign in
             </Link>
           </div>
           <div className="flex items-center space-x-4 md:hidden">
             <Link
               className="inline-flex h-8 items-center rounded-md border border-gray-200 bg-white px-3 text-sm font-medium"
-              href="/login"
+              href="/auth/sign-in"
             >
-              Login
+              Sign in
             </Link>
             <button className="inline-flex rounded-md md:hidden" type="button">
               <MenuIcon className="h-6 w-6" />
